@@ -72,7 +72,7 @@ new Vue({
 sellixmain: [
   {
     name: 'Fullz',
-    image: './images/Fullz.png',
+    image: './images/fullz.png',
     price: '0.50',
     id: '6247df4f83e67',
     des: 'ssn fullname addy',
