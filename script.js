@@ -72,11 +72,19 @@ new Vue({
 sellixmain: [
   {
     name: 'Fullz',
-    image: './images/fullz.png',
+    image: './images/Fullz.png',
     price: '0.50',
     id: '6247df4f83e67',
     des: 'ssn fullname addy',
     colour: 'product--black'
+  },
+  {
+    name: 'yahoos',
+    image: './images/yahoos.png',
+    price: '0.02',
+    id: '624be7c8f32cc',
+    des: 'LQ Yahoo Logs',
+    colour: 'product--blue'
   }
 ]
 
