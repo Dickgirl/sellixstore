@@ -1,1 +1,1 @@
-# sellix shop template 
+# shoes.ml

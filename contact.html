@@ -36,16 +36,17 @@
 
 
       <div id="app">
-      <div v-for="sellixmain in sellixmain">
+      <div v-for="social in social">
       <div class='row'>
 
-        <div :class="sellixmain.colour">
+        <div :class="social.colour">
           <div class='product_inner'>
-            <img :src="sellixmain.image" width='300'>
-            <p>{{ sellixmain.name }}</p>
-            <p>{{ sellixmain.des }}</p>
-            <p>Price ${{ sellixmain.price }}</p>
-            <button class="button style3 fit" :data-sellix-product="sellixmain.id" type="submit" alt="Buy Now">Buy</button>
+            <img :src="social.image" width='300'>
+            <p>Follow me on all</p>
+            <ul class="social">
+  <a href="https://twitter.com/exxploiting" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
+  <a href="https://github.com/dickgirl" target="_blank"><i class="fa fa-3x fa-github"></i></a>
+</ul>
           </div>
           <div class='product_overlay'>
             <h2>Added to basket</h2>
